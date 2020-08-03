@@ -1,5 +1,6 @@
 /**
- * Author: Yaye Esmilla: https://github.com/yayesmilla
+ * @author Yaye Esmilla
+ * https://github.com/yayesmilla
  */
 import { keys, operandsMap } from './configs.js';
 
@@ -258,8 +259,6 @@ function displayOnScreen(value) {
     const isFloat = Number(value) === value && value % 1 !== 0;
     if (isFloat) {
         value = parseFloat(value.toFixed(10));
-
-        console.log('--DEBUG--', isFloat, value);
     }
 
     document.getElementById('screenBody').innerHTML = value;
@@ -289,7 +288,13 @@ function compute() {
                 total = currentValue * keysValue;
                 break;
         }
-        displayOnScreen(total);
+
+        if (total.toString().length > 12) {
+            displayOnScreen(total.toExponential(5));
+        } else {
+            displayOnScreen(total);
+        }
+
         setCurrentValue(total);
     }
 }
@@ -332,6 +337,5 @@ document.addEventListener('DOMContentLoaded', () => {
     getCurrentTabUrl((url, tab) => {
         buildElements()
             .then(bindEventListeners);
-
     });
 });
