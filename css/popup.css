@@ -1,0 +1,92 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('../lib/fonts/digital-7.ttf');
+}
+
+@font-face{
+    font-family:'square-sans-serif';
+    src: url('../lib/fonts/square-sans-serif.ttf');
+}
+
+#retroCalcApp {
+    border: 12px solid #1C1C1C;
+    background-color: #DDC5A1;
+}
+
+#keyButtonsContainer {
+    background-color: #DDC5A1;
+    padding-left: 15px;
+    padding: 5px 15px;
+}
+
+#header {
+    background: #292929;
+    height: 110px;
+    position: relative;
+    color: #ADA28E;
+}
+
+#logoContainer {
+    padding: 3px 12px;
+    border-bottom: 1px solid #7B323A;
+    font-family: 'square-sans-serif';
+}
+
+#screenBody {
+    background: #827B5E;
+    color: #000;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: normal;
+    padding: 0 5px;
+    text-align: end;
+    font-family: 'digital-clock-font';
+}
+
+#screenContainer {
+    background: #88897B;
+    height: 60px;
+    width: 280px;
+    position: relative;
+    margin: 8px 10px;
+    border: 5px solid #1C1C1C;
+    border-left-color: #74756F;
+}
+
+#keyClear {
+    background: #E98151;
+}
+
+#keyEquals {
+    background: #615C48;
+    width: 140px;
+}
+
+.btnKey {
+    border: 5px solid #303133;
+    margin: 3px 5px;
+    width: 65px;
+    height: 45px;
+    background: rgb(63,63,63);
+    background: linear-gradient(90deg, rgba(63,63,63,1) 0%, rgba(56,56,56,1) 27%, rgba(42,42,42,1) 100%);
+    color: #e6e3e3;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 0.5;
+}
+
+.btnKey:hover {
+    color:  #e6e3e3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btnKey:focus {
+    color:  #e6e3e3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #E98151;
+}
