@@ -1,5 +1,5 @@
-# RetroCalc browser extension
-RetroCalc is a Chrome browser extension that allows you to do simple arithmetic calculations on-the-fly
+# Retro Calculator browser extension
+Retro Calculator is a pop-up Chrome browser extension that allows you to do simple arithmetic functions on-the-fly
 
 ## Features
 - Do basic arithmetic functions like addition, subtraction, multiplication, and division whilst not leaving current tab or browser
