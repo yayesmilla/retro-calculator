@@ -10,4 +10,4 @@ Retro Calculator is a pop-up Chrome browser extension that allows you to do simp
 ![image](https://user-images.githubusercontent.com/7586031/89307997-bbc8bc80-d63f-11ea-8ba7-06655559b278.png)
 
 ## Contribution
-You may submit pull requests to add new features to RetroCalc. I reserve all the rights to accept or reject any incoming pull requests.
+You may submit pull requests to add new features to Retro Calculator. I reserve all the rights to accept or reject any incoming pull requests.
